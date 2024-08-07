@@ -51,3 +51,5 @@ chart = alt.Chart(df_chart).mark_line().encode(
             color='genre:N'
             ).properties(height=320)
 st.altair_chart(chart, use_container_width=True)
+
+
